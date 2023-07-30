@@ -183,8 +183,8 @@ public class MainActivity extends AppCompatActivity {
         t[8].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(t[6].getText().equals("")){
-                    t[6].setText(t[8].getText());
+                if(t[5].getText().equals("")){
+                    t[5].setText(t[8].getText());
                     t[8].setText("");
                     win();
                 }
@@ -250,17 +250,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void win() {
 
-        if(t[0].getText().equals(1)&&t[1].getText().equals(2)&&t[2].getText().equals(3)&&t[3].getText().equals(4)&&t[4].getText().equals(5)&&t[5].getText().equals(6)&&t[6].getText().equals(7)&&t[7].getText().equals(8));
-            t[0].setEnabled(false);
-            t[1].setEnabled(false);
-            t[2].setEnabled(false);
-            t[3].setEnabled(false);
-            t[4].setEnabled(false);
-            t[5].setEnabled(false);
-            t[6].setEnabled(false);
-            t[7].setEnabled(false);
-            t[8].setEnabled(false);
-
-            ttt.setText("Congratulations ! You Win...");
+//        if(t[0].getText().equals(1)&&t[1].getText().equals(2)&&t[2].getText().equals(3)&&
+//                t[3].getText().equals(4)&&t[4].getText().equals(5)&&t[5].getText().equals(6)&&
+//                t[6].getText().equals(7)&&t[7].getText().equals(8));
+//            t[0].setEnabled(false);
+//            t[1].setEnabled(false);
+//            t[2].setEnabled(false);
+//            t[3].setEnabled(false);
+//            t[4].setEnabled(false);
+//            t[5].setEnabled(false);
+//            t[6].setEnabled(false);
+//            t[7].setEnabled(false);
+//            t[8].setEnabled(false);
+//
+//            ttt.setText("Congratulations ! You Win...");
     }
 }
